@@ -18,6 +18,7 @@ cd <repository-folder>
 
 2.(Optional but recommended) Create and activate a virtual environment:
 
+# Create virtual environment:
 python -m venv venv
 # Windows
 venv\Scripts\activate
@@ -33,6 +34,4 @@ pip install -r requirements.txt
 4.Run the application:
 
 python image.py
-
-
 After running, Gradio will provide a local URL (usually http://127.0.0.1:7860) to open in your browser and upload images.
